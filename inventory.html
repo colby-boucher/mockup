@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventory</title>
+    <script defer type="text/javascript" src="javascript.js">
+    </script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<header>
+    <a href="inventory.html"><img src="images/sack.png">Inventory</a>
+    <a href="shop.html"><img src="images/dollar.png">Shopkeep</a>
+    <a href="web.html"><img src="images/log-in.png">Log In</a>
+</header></head>
+<body>
+<p>Weight: 24 / 50</p>
+<div class="content parent">
+
+    <div class="child">
+        <div class="head">
+         <form>
+             <label for="equipment">Add equipment:</label><select id="equipment" name="equipment">
+             <option value="sword">Sword</option>
+             <option value="leatherArmor">Leather Armor</option>
+             <option value="shield">Shield</option>
+             </select>
+         </form>
+        </div>
+        <div class="item tooltip">
+            <span class="tooltiptext">Sword of Stabbing<br>Weight: 2</span>
+            <img src="images/sword.png" title="Sword. Weight: 2lb" alt= "Sword">
+        </div>
+        <div class="item tooltip">
+            <span class="tooltiptext">Armor of Hardness<br>Weight: 10</span>
+            <img src="images/armor.png" title="Armor. Weight: 10lb">
+        </div>
+        <div class="item tooltip">
+            <span class="tooltiptext">Shield of Shielding<br>Weight: 4lb</span>
+            <img src="images/shield.png">
+        </div>
+    </div>
+
+    <div class="child">
+        <div class="head">
+            <form>
+                <label for="items">Add equipment:</label><select id="items" name="items">
+                <option value="healthpotion">Potion of Health</option>
+                <option value="rope">Rope (50ft)</option>
+                <option value="pole">Pole (10ft)</option>
+            </select>
+            </form>
+        </div>
+        <div class="item tooltip">
+            <span class="tooltiptext">Potion of Healing<br>Weight: 1lb<br>Quantity: 1</span>
+            <img src="images/potion.png">
+        </div>
+        <div class="item tooltip">
+            <span class="tooltiptext">Gold Pieces<br>Weight: 2lb<br>Quantity: 250</span>
+            <img src="images/dollar.png">
+        </div>
+        <div class="item tooltip">
+            <span class="tooltiptext">Rope<br>Weight: 5lb</span>
+            <img src="images/rope.png">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
